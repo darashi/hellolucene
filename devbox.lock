@@ -1,0 +1,90 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "gradle@latest": {
+      "last_modified": "2024-08-14T11:41:26Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465#gradle",
+      "source": "devbox-search",
+      "version": "8.8",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6lxwg0kx4zccdyafpl4ill77mvc3cmxi-gradle-8.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6lxwg0kx4zccdyafpl4ill77mvc3cmxi-gradle-8.8"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w54j7mcgl0g1bzqfpphjamvd957iakmb-gradle-8.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w54j7mcgl0g1bzqfpphjamvd957iakmb-gradle-8.8"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4xbkfymnv7isk0c9v7p6ify6m0hp2hq1-gradle-8.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4xbkfymnv7isk0c9v7p6ify6m0hp2hq1-gradle-8.8"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/7di32pfzw13cybagcpa00xw0mkarwwa4-gradle-8.8",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/7di32pfzw13cybagcpa00xw0mkarwwa4-gradle-8.8"
+        }
+      }
+    },
+    "jdk@17": {
+      "last_modified": "2024-08-14T11:41:26Z",
+      "resolved": "github:NixOS/nixpkgs/0cb2fd7c59fed0cd82ef858cbcbdb552b9a33465#jdk17",
+      "source": "devbox-search",
+      "version": "17.0.11+9",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6scnbg43y0klq3i2lxrn5lmj6jyr2bla-openjdk-17.0.11+9",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/qkbxxlgzs8p75426xx1mgk7lv29plszg-openjdk-17.0.11+9-debug"
+            }
+          ],
+          "store_path": "/nix/store/6scnbg43y0klq3i2lxrn5lmj6jyr2bla-openjdk-17.0.11+9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zv325ff26ahbywl59q8cj9vm63sisna6-openjdk-17.0.11+9",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/fjva79k05hpr1mx1cj02jggjr249ac7w-openjdk-17.0.11+9-debug"
+            }
+          ],
+          "store_path": "/nix/store/zv325ff26ahbywl59q8cj9vm63sisna6-openjdk-17.0.11+9"
+        }
+      }
+    }
+  }
+}

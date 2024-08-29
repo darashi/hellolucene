@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.lucene:lucene-analysis-common:9.11.1'
+}
+
+application {
+    mainClass = 'demo.App'
+}
